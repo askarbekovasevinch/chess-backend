@@ -30,11 +30,14 @@
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0",
+    "express": "^5.2.1",
+    "module": "^2.0.0",
+    "node": "^25.9.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "pg": "^8.20.0",
     "reflect-metadata": "^0.1.14",
-    "rxjs": "^7.8.0",
+    "rxjs": "^7.8.2",
     "typeorm": "^0.3.28"
   },
   "devDependencies": {
@@ -71,5 +74,16 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askarbekovasevinch/chess-backend.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/askarbekovasevinch/chess-backend/issues"
+  },
+  "homepage": "https://github.com/askarbekovasevinch/chess-backend#readme"
 }
